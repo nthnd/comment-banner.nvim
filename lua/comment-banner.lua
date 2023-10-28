@@ -25,6 +25,10 @@ local commentCharsLookup = {
     vim        = "\"",
 }
 
+-- ╭────────────────────╮
+-- │ The magic function │
+-- ╰────────────────────╯
+
 M.createComment = function()
     local userInput = vim.fn.input('Section name: ')
 
