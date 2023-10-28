@@ -1,6 +1,9 @@
 # Comment-banner.nvim
 Add decorative comments in Neovim
 
+
+![image](https://github.com/nate-sys/comment-banner.nvim/assets/96471299/e327973f-1619-4839-9dcd-ddfb46c910b2)
+
 ## Installation
 
 Haven't tested, but should work with most plugin managers.
@@ -12,14 +15,14 @@ Haven't tested, but should work with most plugin managers.
 use 'nate-sys/comment-banner.nvim'
 ```
 
-### Usage
+## Usage
 
 ```lua
 require 'comment-banner'.setup{}
 vim.keymap.set('n', '<leader>cc', require 'comment-banner'.createComment)
 ```
 
-#### Defaults
+### Defaults
 
 ```lua
 require 'comment-banner'.setup{
